@@ -1,5 +1,7 @@
 package org.acme;
 
+import java.time.LocalDate;
+
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
 import jakarta.ws.rs.Produces;
@@ -13,7 +15,10 @@ public class DateResource {
 @Produces(MediaType.TEXT_PLAIN)
 @Path("currentdate")
 public String getCurrentDate() {
-return "TODO : Fix Me to Return Current Date. Use a Variable with telesense working";
+//TODO: Return the String "Current Date=[2024-10-22]" by using proper date method
+//Intellisence has to work
+return "FIX ME With the TODO Instruction in code";
+
 }
 
 @Path("hello")
