@@ -1,4 +1,4 @@
-# quarkus-hello
+# devspaces-challenge-01
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
