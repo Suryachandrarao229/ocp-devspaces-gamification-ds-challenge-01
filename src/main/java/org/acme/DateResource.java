@@ -15,7 +15,8 @@ public class DateResource {
 @Produces(MediaType.TEXT_PLAIN)
 @Path("currentdate")
 public String getCurrentDate() {
-//TODO: Return the String "Current Date=[2024-10-22]" by using proper date method
+//TODO: Return the String "Current Date=[2024-10-22]"
+//You should use out of the box classes for working with dates
 //Intellisence has to work
 return "FIX ME With the TODO Instruction in code";
 }

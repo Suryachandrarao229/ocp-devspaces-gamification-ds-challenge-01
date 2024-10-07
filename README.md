@@ -7,7 +7,7 @@
 
 ### Set Up + verification
 * Open a terminal. Run the quarkus application in live coding mode with the command : "./mvnw quarkus:dev"
-* Say "y" to the question (if required) : Do you agree to contribute anonymous build time data to the Quarkus community? 
+* Select your option "y/n" to the question (if asked) : Do you agree to contribute anonymous build time data to the Quarkus community? 
 * On the prompt press [r] to resume testing. This will result in an error
 * Open the "src/main/java/org/acme/DateResource.java". You will observe the method "getCurrentDate" needs to be fixed.
 * When you select all the code, right click and choose "Refactor"", the code does not format
