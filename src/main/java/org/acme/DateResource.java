@@ -10,7 +10,7 @@ import jakarta.ws.rs.core.MediaType;
 @Path("/api")
 public class DateResource {
 
-//TO DO :: Fix Me
+
 @GET
 @Produces(MediaType.TEXT_PLAIN)
 @Path("currentdate")
@@ -18,12 +18,21 @@ public String getCurrentDate() {
 //TODO: Return the String "Current Date=[2024-10-22]" by using proper date method
 //Intellisence has to work
 return "FIX ME With the TODO Instruction in code";
-
 }
-
-@Path("hello")
-@GET
-@Produces(MediaType.TEXT_PLAIN)
-public String greet() {
-return "Hello Challenge Attendees";}
+private static void calculateAndPrintStatistics(int[] numbers) {
+if (numbers == null || numbers.length == 0) {
+System.out.println("No data provided.");
+return;}
+int sum = 0;int max = Integer.MIN_VALUE;
+int min = Integer.MAX_VALUE;    
+for (int number : numbers) {sum += number;
+if (number > max) {
+max = number;
+}if (number < min) {
+min = number;}}
+double average = (double) sum / numbers.length;
+System.out.println("Average: " + average);
+System.out.println("Maximum: " + max);
+System.out.println("Minimum: " + min);
+}
 }
