@@ -9,8 +9,6 @@ import jakarta.ws.rs.core.MediaType;
 
 @Path("/api")
 public class DateResource {
-
-
 @GET
 @Produces(MediaType.TEXT_PLAIN)
 @Path("currentdate")
