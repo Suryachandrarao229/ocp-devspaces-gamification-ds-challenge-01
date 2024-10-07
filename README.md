@@ -1,60 +1,24 @@
-# devspaces-challenge-01
+## Challenge-01
 
-This project uses Quarkus, the Supersonic Subatomic Java Framework.
+### Scenario
+* This simulates the scenario of a developer who is given a task of enhancing an existing service that was created by another developer
+* The pain of understanding what extensions are required should be resolved by the developer that is assigned this enhancement task
 
-If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
 
-## Running the application in dev mode
+### Set Up + verification
+* Open a terminal. Run the quarkus application in dev mode with the command : "./mvnw quarkus:dev"
+* Say "y" to the question (if required) : Do you agree to contribute anonymous build time data to the Quarkus community? 
+* On the prompt press [r] to resume testing. This will result in an error
+* Open the "src/main/java/org/acme/DateResource.java". You will observe the method "getCurrentDate" needs to be fixed.
+* When you select all the code, right click and chose format, the code does not format
 
-You can run your application in dev mode that enables live coding using:
-```shell script
-./mvnw compile quarkus:dev
-```
+### Success Criteria
+* Required extensions are installed for formatting and java intellisense
+* Code is formatted with the extensions
+* Method getCurrentDate code is completed. The code should show java intellisense in action
 
-> **_NOTE:_**  Quarkus now ships with a Dev UI, which is available in dev mode only at http://localhost:8080/q/dev/.
 
-## Packaging and running the application
+### Resources
+* 
+* 
 
-The application can be packaged using:
-```shell script
-./mvnw package
-```
-It produces the `quarkus-run.jar` file in the `target/quarkus-app/` directory.
-Be aware that it’s not an _über-jar_ as the dependencies are copied into the `target/quarkus-app/lib/` directory.
-
-The application is now runnable using `java -jar target/quarkus-app/quarkus-run.jar`.
-
-If you want to build an _über-jar_, execute the following command:
-```shell script
-./mvnw package -Dquarkus.package.jar.type=uber-jar
-```
-
-The application, packaged as an _über-jar_, is now runnable using `java -jar target/*-runner.jar`.
-
-## Creating a native executable
-
-You can create a native executable using: 
-```shell script
-./mvnw package -Dnative
-```
-
-Or, if you don't have GraalVM installed, you can run the native executable build in a container using: 
-```shell script
-./mvnw package -Dnative -Dquarkus.native.container-build=true
-```
-
-You can then execute your native executable with: `./target/quarkus-hello-1.0.0-SNAPSHOT-runner`
-
-If you want to learn more about building native executables, please consult https://quarkus.io/guides/maven-tooling.
-
-## Related Guides
-
-- RESTEasy Reactive ([guide](https://quarkus.io/guides/resteasy-reactive)): A Jakarta REST implementation utilizing build time processing and Vert.x. This extension is not compatible with the quarkus-resteasy extension, or any of the extensions that depend on it.
-
-## Provided Code
-
-### RESTEasy Reactive
-
-Easily start your Reactive RESTful Web Services
-
-[Related guide section...](https://quarkus.io/guides/getting-started-reactive#reactive-jax-rs-resources)
