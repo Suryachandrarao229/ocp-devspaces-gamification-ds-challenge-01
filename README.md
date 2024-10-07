@@ -10,7 +10,7 @@
 * Say "y" to the question (if required) : Do you agree to contribute anonymous build time data to the Quarkus community? 
 * On the prompt press [r] to resume testing. This will result in an error
 * Open the "src/main/java/org/acme/DateResource.java". You will observe the method "getCurrentDate" needs to be fixed.
-* When you select all the code, right click and chose format, the code does not format
+* When you select all the code, right click and choose format, the code does not format
 
 ### Success Criteria
 * Required extensions are installed for formatting and java intellisense
