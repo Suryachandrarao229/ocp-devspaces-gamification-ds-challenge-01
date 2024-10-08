@@ -14,6 +14,7 @@
 
 ### Success Criteria
 * Fix the formatting by Installing Required extensions. Code is formatted with the extensions
+* Restart your workspace for setting to be reflected
 * Method getCurrentDate code is completed. The code should show java intellisense in action
 * The live coding mode shows no errors
 
@@ -21,3 +22,7 @@
 * 
 * 
 
+### What did we learn
+* Developers life for enhancing a service is at best guessing which extensions are needed
+* Unless there is a documentation and or guidance (like this scenario), it will be trial-and-error
+* No guidance also results in lost time, productivity and delays the joy of coding
