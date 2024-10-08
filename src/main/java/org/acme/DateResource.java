@@ -1,5 +1,6 @@
 package org.acme;
 
+//This is a Clue for the challenge
 import java.time.LocalDate;
 
 import jakarta.ws.rs.GET;
