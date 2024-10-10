@@ -5,7 +5,6 @@
 * The challenge (pain) of understanding required extensions is borne done by the developer that is assigned this enhancement task
 
 ### Set Up + verification
-* Reminder : You should have created this workspace from your teams challenges folder in source control
 * Open a terminal. Run the command "chmod 755 mvnw" to change the mvnw file to be executable
 * Run the quarkus application in live coding mode with the command : "./mvnw quarkus:dev"
 * Select your option "y/n" to the question (if asked) : Do you agree to contribute anonymous build time data to the Quarkus community? 
