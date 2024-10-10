@@ -2,10 +2,11 @@
 
 ### Scenario
 * This simulates the scenario of a developer who is given a task of enhancing an existing service that was created by another developer
-* The challenge (pain) of understanding required extensions is borne done by the developer that is assigned this enhancement task
+* The challenge (pain) of understanding required extensions is borne by the developer that is assigned this enhancement task
 
 ### Set Up + verification
 * Open a terminal. Run the command "chmod 755 mvnw" to change the mvnw file to be executable
+* Run the command "./mvnw compile" to check for errors. You will see the code compiles fine
 * Run the quarkus application in live coding mode with the command : "./mvnw quarkus:dev"
 * Select your option "y/n" to the question (if asked) : Do you agree to contribute anonymous build time data to the Quarkus community? 
 * On the prompt press [r] to resume testing. This will result in an error
@@ -14,9 +15,9 @@
 
 ### Success Criteria
 * Fix the formatting by Installing Required extensions. Code is formatted with the extensions
-* Restart your workspace for setting to be reflected
+* Restart your workspace (if required) for setting to be reflected
 * Method getCurrentDate code is completed. The code should show java intellisense in action
-* The live coding mode shows no errors
+* The live coding mode shows no errors and should indicate "All 1 test is passing"
 
 ### Resources
 * Look for hidden clue(s) in source files that can help finishing the task sooner!
