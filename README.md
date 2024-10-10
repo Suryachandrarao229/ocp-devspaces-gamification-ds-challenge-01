@@ -21,7 +21,7 @@
 ### Resources
 * Look for hidden clue(s) in source files that can help finishing the task sooner!
 
-### What did we learn
+### What did we learn?
 * Developer have challenging tasks : Example -- finding out which extensions are needed
 * Unless there is a documentation and or guidance (like this scenario sections), it will be trial-and-error
 * No guidance also results in lost time, productivity and delays the joy of coding
