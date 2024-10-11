@@ -6,15 +6,15 @@
 
 ### Set Up + verification
 * Open a terminal. Run the below command to change the mvnw file to be executable
-    ```bash
+    ```
     chmod 755 mvnw
     ```
 * Run the below command to check for compilation errors. You will see the code compiles fine
-    ```bash
+    ```
     ./mvnw compile
     ```
 * Run the quarkus application in live coding mode
-    ```bash
+    ```
     ./mvnw quarkus:dev
     ```
 * Select your option "y/n" to the question (if asked) : Do you agree to contribute anonymous build time data to the Quarkus community? 
